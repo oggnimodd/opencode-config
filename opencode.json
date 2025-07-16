@@ -1,0 +1,55 @@
+{
+	"$schema": "https://opencode.ai/config.json",
+	"mcp": {
+		"context7": {
+			"type": "local",
+			"command": ["bunx", "-y", "@upstash/context7-mcp"],
+			"enabled": true
+		},
+		"clarifo": {
+			"type": "local",
+			"command": [
+				"/home/orenji/.bun/bin/bun",
+				"run",
+				"/home/orenji/coding/clarifo/index.ts"
+			],
+			"enabled": true
+		}
+	},
+	"mode": {
+		"discuss": {
+			"prompt": "{file:./prompts/brainstorming.txt}",
+			"tools": {
+				"bash": false,
+				"edit": false,
+				"write": false,
+				"webfetch": true,
+				"patch": false,
+				"todowrite": false,
+				"todoread": false,
+				"task": false,
+				"read": true,
+				"grep": true,
+				"glob": true,
+				"list": true
+			}
+		},
+		"ask": {
+			"prompt": "{file:./prompts/ask.txt}",
+			"tools": {
+				"bash": false,
+				"edit": false,
+				"write": false,
+				"webfetch": true,
+				"patch": false,
+				"todowrite": false,
+				"todoread": false,
+				"task": false,
+				"read": true,
+				"grep": true,
+				"glob": true,
+				"list": true
+			}
+		}
+	}
+}
