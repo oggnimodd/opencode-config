@@ -1,5 +1,6 @@
 {
 	"$schema": "https://opencode.ai/config.json",
+	"small_model": "google/gemini-2.0-flash",
 	"mcp": {
 		"context7": {
 			"type": "local",
