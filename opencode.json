@@ -16,6 +16,24 @@
 			"enabled": true
 		}
 	},
+	"provider": {
+		"openrouter": {
+			"npm": "@openrouter/ai-sdk-provider",
+			"name": "OpenRouter",
+			"options": {},
+			"models": {
+				"qwen/qwen3-coder:free": {
+					"name": "Qwen3 Coder (free)"
+				},
+				"moonshotai/kimi-k2:free": {
+					"name": "Kimi K2 (free)"
+				},
+				"qwen/qwen3-235b-a22b-07-25:free": {
+					"name": "Qwen3 235B A22B 2507 (free)"
+				}
+			}
+		}
+	},
 	"mode": {
 		"discuss": {
 			"prompt": "{file:./prompts/brainstorming.txt}",
