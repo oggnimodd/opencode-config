@@ -31,6 +31,12 @@
 				},
 				"qwen/qwen3-235b-a22b-07-25:free": {
 					"name": "Qwen3 235B A22B 2507 (free)"
+				},
+				"deepseek/deepseek-r1-0528:free": {
+					"name": "Deepseek R1 0528 (free)"
+				},
+				"deepseek/deepseek-chat-v3-0324:free": {
+					"name": "Deepseek Chat V3 0324 (free)"
 				}
 			}
 		}
@@ -56,7 +62,7 @@
 		"ask": {
 			"prompt": "{file:./prompts/ask.txt}",
 			"tools": {
-				"bash": false,
+				"bash": true,
 				"edit": false,
 				"write": false,
 				"webfetch": true,
