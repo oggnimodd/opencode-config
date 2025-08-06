@@ -23,9 +23,6 @@
 			"name": "OpenRouter",
 			"options": {},
 			"models": {
-				"qwen/qwen3-coder:free": {
-					"name": "Qwen3 Coder (free)"
-				},
 				"moonshotai/kimi-k2:free": {
 					"name": "Kimi K2 (free)"
 				},
