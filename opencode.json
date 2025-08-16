@@ -37,6 +37,9 @@
 				},
 				"z-ai/glm-4.5-air:free": {
 					"name": "GLM 4.5 Air (free)"
+				},
+				"qwen3-coder:free": {
+					"name": "Qwen3 Coder (free)"
 				}
 			}
 		}
